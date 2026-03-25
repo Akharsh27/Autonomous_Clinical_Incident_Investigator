@@ -107,24 +107,25 @@ if hasattr(st.session_state, 'last_report') and st.session_state.last_report:
             st.markdown(f"<div class='section-box'><b>Patient ID:</b> {report.get('patient_id', 'N/A')}</div>", unsafe_allow_html=True)
         with col2:
             st.markdown(f"<div class='section-box'><b>Timestamp:</b> {report.get('timestamp', 'N/A')}</div>", unsafe_allow_html=True)
+        st.divider()
+        analysis = report.get("analysis", {})
+        if analysis:
+            st.markdown(f"**Status:** {analysis.get('vitals', {}).get('severity', 'N/A').upper()}")
     
     # Vitals Tab
     with tabs[1]:
-        vitals = report.get("vitals", {})
+        analysis = report.get("analysis", {})
+        vitals = analysis.get("vitals", {})
         
-        col1, col2, col3 = st.columns(3)
+        col1, col2 = st.columns(2)
         
         with col1:
-            anomaly = vitals.get("vitals_anomaly")
             severity = vitals.get("severity", "normal")
             severity_class = "vital-critical" if severity == "critical" else "vital-normal"
             st.markdown(f"<div class='section-box'><b>Severity:</b> <span class='{severity_class}'>{severity.upper()}</span></div>", unsafe_allow_html=True)
         
         with col2:
-            bp = vitals.get("blood_pressure", "N/A")
-            st.markdown(f"<div class='section-box'><b>Blood Pressure:</b> {bp}</div>", unsafe_allow_html=True)
-        
-        with col3:
+            anomaly = vitals.get("anomaly")
             if anomaly:
                 st.markdown(f"<div class='section-box' style='border-left-color: #e74c3c;'><b>⚠️ Anomaly:</b> {anomaly}</div>", unsafe_allow_html=True)
             else:
@@ -132,11 +133,12 @@ if hasattr(st.session_state, 'last_report') and st.session_state.last_report:
     
     # Treatment Tab
     with tabs[2]:
-        treatment = report.get("treatment", {})
+        analysis = report.get("analysis", {})
+        treatment = analysis.get("treatment", {})
         if treatment:
             col1, col2 = st.columns(2)
             with col1:
-                st.markdown(f"<div class='section-box'><b>Recent Treatment:</b> {treatment.get('recent_treatment', 'N/A')}</div>", unsafe_allow_html=True)
+                st.markdown(f"<div class='section-box'><b>Recent Treatment:</b> {treatment.get('recent_drug', 'N/A')}</div>", unsafe_allow_html=True)
             with col2:
                 st.markdown(f"<div class='section-box'><b>Time:</b> {treatment.get('time', 'N/A')}</div>", unsafe_allow_html=True)
         else:
@@ -144,7 +146,8 @@ if hasattr(st.session_state, 'last_report') and st.session_state.last_report:
     
     # Clinical Tab
     with tabs[3]:
-        clinical = report.get("clinical", {})
+        analysis = report.get("analysis", {})
+        clinical = analysis.get("clinical", {})
         if clinical:
             st.markdown("### Clinical Data")
             for key, value in clinical.items():
@@ -155,8 +158,8 @@ if hasattr(st.session_state, 'last_report') and st.session_state.last_report:
     
     # Action Plan Tab
     with tabs[4]:
-        action = report.get("action", "No action recommended")
-        st.markdown(f"<div class='action-box'>{action}</div>", unsafe_allow_html=True)
+        decision = report.get("decision", "No action recommended")
+        st.markdown(f"<div class='action-box'>{decision}</div>", unsafe_allow_html=True)
     
     # Full Report JSON (expandable)
     with st.expander("📄 Full Report (JSON)"):
@@ -174,22 +177,23 @@ if hasattr(st.session_state, 'last_report') and st.session_state.last_report:
         )
     
     with col2:
+        analysis = report.get("analysis", {})
         report_text = f"""
 CLINICAL INCIDENT INVESTIGATION REPORT
 Patient ID: {report.get('patient_id', 'N/A')}
 Timestamp: {report.get('timestamp', 'N/A')}
 
 VITALS:
-{json.dumps(report.get('vitals', {}), indent=2)}
+{json.dumps(analysis.get('vitals', {}), indent=2)}
 
 TREATMENT:
-{json.dumps(report.get('treatment', {}), indent=2)}
+{json.dumps(analysis.get('treatment', {}), indent=2)}
 
 CLINICAL:
-{json.dumps(report.get('clinical', {}), indent=2)}
+{json.dumps(analysis.get('clinical', {}), indent=2)}
 
-ACTION PLAN:
-{report.get('action', 'No action recommended')}
+DECISION:
+{report.get('decision', 'No action recommended')}
 """
         st.download_button(
             label="📥 Download Report (TXT)",
