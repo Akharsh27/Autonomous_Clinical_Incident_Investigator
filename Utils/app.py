@@ -111,6 +111,12 @@ if hasattr(st.session_state, 'last_report') and st.session_state.last_report:
         analysis = report.get("analysis", {})
         if analysis:
             st.markdown(f"**Status:** {analysis.get('vitals', {}).get('severity', 'N/A').upper()}")
+        called_agents = report.get("called_agents", [])
+        commander_plan = report.get("commander_plan", {})
+        st.markdown(f"**Called Agents:** {', '.join(called_agents) if called_agents else 'None'}")
+        if commander_plan:
+            st.markdown(f"**Commander Reason:** {commander_plan.get('reason', 'N/A')}")
+            st.markdown(f"**Commander Priority:** {commander_plan.get('priority', 'N/A').upper()}")
     
     # Vitals Tab
     with tabs[1]:
@@ -148,13 +154,17 @@ if hasattr(st.session_state, 'last_report') and st.session_state.last_report:
     with tabs[3]:
         analysis = report.get("analysis", {})
         clinical = analysis.get("clinical", {})
+        called_agents = report.get("called_agents", [])
         if clinical:
             st.markdown("### Clinical Data")
             for key, value in clinical.items():
                 if value:
                     st.markdown(f"**{key.replace('_', ' ').title()}:** {value}")
         else:
-            st.info("No clinical data available for this patient.")
+            if "clinical" not in called_agents:
+                st.info("Clinical agent was not selected by commander for this run.")
+            else:
+                st.info("Clinical notes were available, but extraction returned empty output for this run.")
     
     # Action Plan Tab
     with tabs[4]:
@@ -194,6 +204,12 @@ CLINICAL:
 
 DECISION:
 {report.get('decision', 'No action recommended')}
+
+CALLED AGENTS:
+{json.dumps(report.get('called_agents', []), indent=2)}
+
+COMMANDER PLAN:
+{json.dumps(report.get('commander_plan', {}), indent=2)}
 """
         st.download_button(
             label="📥 Download Report (TXT)",
