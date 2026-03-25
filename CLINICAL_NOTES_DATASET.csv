@@ -1,4 +1,4 @@
-c
+patient_id,timestamp,event_description
 P001,09:30,Patient reports slight fatigue
 P001,09:45,Routine blood sample collected
 P001,10:00,Patient stable
