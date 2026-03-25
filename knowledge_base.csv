@@ -1,0 +1,107 @@
+condition_trigger,vital_anomaly,drug_context,recommended_action
+Suspected Anaphylaxis,"Oxygen < 92%, HR > 100","Antibiotics, Drug X",Stop infusion immediately. Administer Epinephrine 0.3mg IM. Start high-flow O2.
+Hypoglycemic Shock,"Sluggish, Cold sweat","Insulin, Humalog",Administer 15g fast-acting glucose. Recheck BGL in 15 mins. Notify physician.
+Opioid Respiratory Depression,"RR < 10, Oxygen < 90","Morphine, Fentanyl",Administer Naloxone 0.4mg IV. Stimulate patient. Prepare for bag-mask ventilation.
+Fluid Overload,Shortness of breath,"Normal Saline, LR",Stop IV fluids. Place patient in high-Fowler's position. Consider Furosemide.
+Tachycardic Reaction,HR > 120,"Albuterol, Stimulants",Monitor EKG. Vagal maneuvers. Prepare Adenosine if unstable.
+Baseline Stability,Normal Vitals,"Saline Flush, Vitamins",Continue routine monitoring. No acute intervention required.
+Hypertensive Crisis,"BP > 180/120, Headache","Clonidine, Labetalol",Administer IV antihypertensives. Monitor BP every 5 mins. Assess for end-organ damage.
+Hypotensive Episode,"BP < 90/60, Dizziness","Diuretics, Nitrates",Place patient supine with legs elevated. Administer IV fluid bolus. Consider vasopressors.
+Acute Asthma Exacerbation,"Wheezing, SpO2 < 90%","Albuterol, Ipratropium",Administer nebulized bronchodilators. Give IV corticosteroids. Consider Magnesium Sulfate.
+Sepsis Protocol,"Temp > 38 or < 36, HR > 90, RR > 20",Broad-spectrum Antibiotics,Obtain blood cultures. Administer broad-spectrum antibiotics within 1 hr. Start IV fluid resuscitation.
+Myocardial Infarction,"Chest pain, ST elevation","Aspirin, Nitroglycerin",Administer Aspirin 324mg. Give Nitroglycerin sublingual. Obtain 12-lead EKG. Activate Cath Lab.
+Pulmonary Embolism,"Sudden SOB, Pleuritic chest pain","Heparin, Enoxaparin",Start therapeutic anticoagulation. Order CT Angiogram. Consider thrombolytics if unstable.
+Stroke Alert,"Facial droop, Arm weakness, Slurred speech",tPA (Alteplase),Activate Stroke Team. Obtain stat non-contrast CT head. Assess NIHSS. Prepare for tPA if eligible.
+Seizure Activity,"Tonic-clonic movements, Altered LOC","Lorazepam, Levetiracetam",Protect airway. Administer IV Lorazepam. Load with antiepileptic drug. Monitor EEG.
+Allergic Reaction (Mild),"Urticaria, Pruritus","Diphenhydramine, Famotidine",Administer antihistamines. Monitor for progression to anaphylaxis. Observe for 1-2 hours.
+Hyperkalemia,"K+ > 6.0, Peaked T waves","Calcium Gluconate, Insulin/Glucose",Administer IV Calcium Gluconate to stabilize myocardium. Give IV Insulin with D50. Consider Kayexalate.
+Hypokalemia,"K+ < 3.0, U waves on EKG",Potassium Chloride,Administer IV Potassium Chloride cautiously. Monitor EKG. Recheck potassium levels.
+Malignant Hyperthermia,"Temp > 40C, Muscle rigidity, ETCO2 rise","Dantrolene, Succinylcholine (trigger)",Stop triggering agents. Administer Dantrolene. Cool patient. Treat hyperkalemia and acidosis.
+Serotonin Syndrome,"Agitation, Clonus, Diaphoresis","SSRI, MAOI, Tramadol",Discontinue serotonergic agents. Administer Cyproheptadine. Provide supportive care and cooling.
+Neuroleptic Malignant Syndrome,"Lead-pipe rigidity, High fever, Autonomic instability","Haloperidol, Fluphenazine",Stop antipsychotics. Administer Dantrolene or Bromocriptine. Aggressive cooling and hydration.
+Digoxin Toxicity,"Nausea, Halo vision, Arrhythmias",Digoxin,Check Digoxin level. Administer DigiFab (Digoxin Immune Fab) if indicated. Monitor EKG continuously.
+Lithium Toxicity,"Tremor, Ataxia, Confusion",Lithium,Check Lithium level. Aggressive IV hydration. Consider hemodialysis for severe toxicity.
+Acetaminophen Overdose,"Nausea, RUQ pain, Elevated AST/ALT",Acetaminophen (Tylenol),Check APAP level at 4 hours. Administer N-acetylcysteine (NAC) based on Rumack-Matthew nomogram.
+Benzodiazepine Overdose,"CNS depression, Normal vitals (usually)","Alprazolam, Diazepam",Provide supportive care. Consider Flumazenil cautiously if no chronic use or seizure history.
+Beta-Blocker Overdose,"Bradycardia, Hypotension, Hypoglycemia","Metoprolol, Propranolol",Administer Glucagon. Give IV fluids. Consider High-Dose Insulin Euglycemia Therapy (HIET).
+Calcium Channel Blocker Overdose,"Bradycardia, Hypotension, Hyperglycemia","Amlodipine, Diltiazem",Administer IV Calcium. Give IV fluids. Consider High-Dose Insulin Euglycemia Therapy (HIET).
+Heparin Induced Thrombocytopenia,"Platelet drop > 50%, Thrombosis",Heparin,"Discontinue all Heparin. Start direct thrombin inhibitor (e.g., Argatroban). Send HIT panel."
+Warfarin Toxicity,"INR > 5.0, Bleeding",Warfarin (Coumadin),Hold Warfarin. Administer Vitamin K. Give Prothrombin Complex Concentrate (PCC) for severe bleeding.
+Acute Kidney Injury,"Oliguria, Elevated Creatinine","NSAIDs, Contrast dye",Discontinue nephrotoxic agents. Optimize fluid status. Monitor electrolytes closely.
+Diabetic Ketoacidosis (DKA),"BG > 250, pH < 7.3, Ketones positive",Insulin (missed doses),Start aggressive IV fluid resuscitation. Initiate IV Insulin infusion. Monitor and replace Potassium.
+Hyperosmolar Hyperglycemic State (HHS),"BG > 600, Osmolality > 320, No ketones","Metformin, Insulin (missed)",Aggressive IV fluid resuscitation. Start IV Insulin infusion. Correct electrolyte imbalances.
+Thyrotoxic Crisis (Thyroid Storm),"Fever, Tachycardia, Agitation",Levothyroxine (overdose),Administer Beta-blockers (Propranolol). Give PTU or Methimazole. Administer Hydrocortisone.
+Myxedema Coma,"Hypothermia, Bradycardia, Altered LOC",Levothyroxine (non-compliance),Administer IV Levothyroxine. Provide warming measures. Consider IV Hydrocortisone.
+Adrenal Crisis,"Profound hypotension, Hypoglycemia",Corticosteroids (abrupt stop),Administer IV Hydrocortisone immediately. Aggressive IV fluid resuscitation. Correct hypoglycemia.
+Acute Respiratory Distress Syndrome (ARDS),"Severe hypoxemia, Bilateral infiltrates","Recent infection, Trauma",Initiate mechanical ventilation with low tidal volumes. Use high PEEP. Consider prone positioning.
+Pneumothorax,"Sudden pleuritic pain, Decreased breath sounds",None (spontaneous) or Trauma,Obtain stat Chest X-ray. Prepare for needle decompression or chest tube insertion if tension suspected.
+Cardiac Tamponade,"Beck's Triad (Hypotension, JVD, Muffled heart sounds)",Pericardiocentesis,Obtain stat Echocardiogram. Prepare for emergent pericardiocentesis. Administer IV fluids.
+Aortic Dissection,"Tearing chest/back pain, Pulse deficit",Antihypertensives,"Strict BP and HR control (Esmolol, Nitroprusside). Obtain stat CT Angiogram. Consult vascular surgery."
+Status Epilepticus,Continuous seizure > 5 mins,Antiepileptics (missed),Administer IV Lorazepam. Load with Fosphenytoin or Levetiracetam. Prepare for intubation if refractory.
+Meningitis Suspected,"Fever, Nuchal rigidity, Headache","Ceftriaxone, Vancomycin",Obtain blood cultures. Start empiric antibiotics immediately. Prepare for Lumbar Puncture.
+Encephalopathy,"Altered mental status, Asterixis","Lactulose, Rifaximin",Identify and treat underlying cause. Administer Lactulose for hepatic encephalopathy. Monitor neuro status.
+Delirium Tremens,"Agitation, Hallucinations, Tachycardia",Alcohol withdrawal,"Administer IV Benzodiazepines (Diazepam, Lorazepam) using symptom-triggered protocol. Correct electrolytes."
+Wernicke's Encephalopathy,"Confusion, Ataxia, Ophthalmoplegia",Thiamine deficiency,Administer IV Thiamine BEFORE glucose. Replace Magnesium and other electrolytes.
+Gastrointestinal Bleeding,"Hematemesis, Melena, Tachycardia","NSAIDs, Anticoagulants",Establish 2 large-bore IVs. Type and Cross for blood products. Start IV PPI. Consult GI for endoscopy.
+Pancreatitis (Acute),Severe epigastric pain radiating to back,"Alcohol, Gallstones",Aggressive IV fluid resuscitation (Lactated Ringer's). Keep NPO. Provide IV pain management.
+Bowel Obstruction,"Abdominal pain, Distension, Vomiting",Opioids (constipation),Keep NPO. Insert Nasogastric (NG) tube for decompression. Administer IV fluids. Consult surgery.
+Mesenteric Ischemia,Pain out of proportion to exam,Vasopressors,Obtain stat CT Angiogram abdomen. Start broad-spectrum antibiotics. Consult vascular surgery immediately.
+Ectopic Pregnancy Rupture,"Severe pelvic pain, Hypotension",None,Establish large-bore IVs. Type and Cross for blood. Consult OB/GYN immediately for emergent surgery.
+Placental Abruption,"Painful vaginal bleeding, Fetal distress","Cocaine, Hypertension",Monitor fetal heart rate continuously. Establish IV access. Prepare for emergent delivery.
+Pre-eclampsia,"BP > 140/90, Proteinuria, Headache",Magnesium Sulfate,Monitor BP closely. Administer IV Labetalol or Hydralazine. Start Magnesium Sulfate for seizure prophylaxis.
+Eclampsia,Seizures in pregnant patient,Magnesium Sulfate,Protect airway. Administer IV Magnesium Sulfate. Control BP. Prepare for emergent delivery once stabilized.
+Postpartum Hemorrhage,Excessive bleeding after delivery,"Oxytocin, Misoprostol","Fundal massage. Administer Uterotonics (Oxytocin, Methergine). Establish IV access. Type and Cross."
+Sickle Cell Crisis,Severe pain in extremities/chest,"Opioids, IV Fluids",Provide aggressive IV pain management. Administer IV fluids. Administer supplemental oxygen if hypoxic.
+Tumor Lysis Syndrome,"Elevated Uric Acid, K+, Phos; Decreased Ca2+",Chemotherapy,Aggressive IV hydration. Administer Allopurinol or Rasburicase. Monitor and correct electrolytes.
+Febrile Neutropenia,"Temp > 38.3C, ANC < 500",Chemotherapy,"Obtain blood cultures immediately. Start broad-spectrum IV antibiotics (e.g., Cefepime) within 1 hour."
+Disseminated Intravascular Coagulation (DIC),"Bleeding from IV sites, Purpura","Heparin, Blood products","Treat underlying cause (e.g., sepsis). Transfuse Platelets, FFP, or Cryoprecipitate as indicated."
+Transfusion Reaction (Hemolytic),"Fever, Chills, Flank pain, Hematuria",Blood Transfusion,Stop transfusion immediately! Maintain IV access with Normal Saline. Send blood bank workup.
+Transfusion-Related Acute Lung Injury (TRALI),"Sudden SOB, Hypoxia during/after transfusion",Blood Transfusion,Stop transfusion. Provide supplemental oxygen. Consider mechanical ventilation. Do NOT give diuretics.
+Transfusion-Associated Circulatory Overload (TACO),"SOB, Hypertension, JVD during transfusion",Blood Transfusion,Stop or slow transfusion. Place patient upright. Administer IV Diuretics (Furosemide).
+Contrast-Induced Nephropathy,Rise in Creatinine post-contrast,IV Contrast,Ensure adequate pre- and post-procedure IV hydration. Monitor renal function.
+Extravasation of Vesicant,"Pain, Swelling, Erythema at IV site","Chemo, Vasopressors",Stop infusion immediately. Aspirate residual drug. Apply appropriate thermal compress. Administer antidote if available.
+Phlebitis,"Erythema, Warmth, Pain along vein","IV Catheter, Irritant drugs",Remove IV catheter. Apply warm compress. Elevate extremity. Monitor for infection.
+Infiltration,"Swelling, Coolness, Pallor at IV site",IV Fluids,Stop infusion. Remove IV catheter. Elevate extremity. Apply warm or cold compress depending on fluid.
+Air Embolism,"Sudden SOB, Chest pain, Hypotension",Central Line placement/removal,Place patient in left lateral decubitus and Trendelenburg position. Administer 100% O2. Notify physician.
+Catheter-Related Bloodstream Infection (CRBSI),"Fever, Chills, Erythema at line site",Central Line,Obtain blood cultures from line and peripheral site. Remove line if indicated. Start IV antibiotics.
+Deep Vein Thrombosis (DVT),"Unilateral leg swelling, Pain, Erythema","Heparin, DOACs",Elevate extremity. Initiate therapeutic anticoagulation. Obtain venous Doppler ultrasound.
+Compartment Syndrome,"Severe pain out of proportion, Paresthesia","Trauma, Casts",Remove any constricting dressings/casts. Keep extremity at heart level. Consult Orthopedics for emergent fasciotomy.
+Rhabdomyolysis,"Dark urine, Muscle pain, Elevated CK","Statins, Trauma",Aggressive IV fluid resuscitation to maintain high urine output. Monitor Potassium and renal function.
+Heat Stroke,"Temp > 40C, Altered LOC, Anhidrosis",None,"Initiate rapid cooling measures (ice packs, evaporative cooling). Administer cool IV fluids. Monitor core temp."
+Hypothermia,"Core Temp < 35C, Shivering, Bradycardia",None,"Initiate active external and internal warming (warm blankets, warm IV fluids). Monitor EKG for arrhythmias."
+Frostbite,"White, hard, cold skin",None,Rapid rewarming in warm water bath (37-39C). Provide pain management. Do NOT rub the affected area.
+Carbon Monoxide Poisoning,"Headache, Cherry-red skin, Confusion",None,Administer 100% Oxygen via non-rebreather mask. Consider hyperbaric oxygen therapy for severe cases.
+Cyanide Poisoning,"Altered LOC, Seizures, Lactic acidosis",Nitroprusside (rare),Administer Cyanide Antidote Kit (Hydroxocobalamin or Sodium Nitrite/Sodium Thiosulfate).
+Organophosphate Poisoning,"SLUDGE syndrome (Salivation, Lacrimation, etc.)",Pesticides,Decontaminate patient. Administer Atropine until secretions dry. Administer Pralidoxime (2-PAM).
+Salicylate Toxicity,"Tinnitus, Hyperventilation, Resp Alkalosis",Aspirin,Administer Activated Charcoal if early. Alkalinize urine with IV Sodium Bicarbonate. Consider hemodialysis.
+Tricyclic Antidepressant (TCA) Overdose,"Wide QRS, Anticholinergic toxidrome",Amitriptyline,Administer IV Sodium Bicarbonate for QRS > 100ms. Treat seizures with Benzodiazepines.
+Iron Toxicity,"Vomiting, Bloody diarrhea, Shock",Iron supplements,Obtain serum iron levels. Administer Deferoxamine if indicated (vin rosé urine). Provide GI decontamination.
+Lead Poisoning,"Abdominal pain, Anemia, Encephalopathy",Lead exposure,"Identify and remove source. Administer Chelation therapy (Succimer, EDTA) based on lead levels."
+Snake Bite (Envenomation),"Fang marks, Swelling, Coagulopathy",Antivenom,Immobilize extremity at heart level. Do NOT use tourniquets or suction. Administer CroFab antivenom if indicated.
+Spider Bite (Black Widow),"Muscle cramping, Abdominal rigidity",None,Provide pain management (Opioids). Administer Benzodiazepines for muscle spasms. Consider antivenom for severe cases.
+Spider Bite (Brown Recluse),"Necrotic ulcer, Erythema",None,Provide local wound care. Update Tetanus. Monitor for systemic signs (hemolysis).
+Bee/Wasp Sting (Severe),"Stridor, Hypotension, Urticaria",Epinephrine,Treat as Anaphylaxis. Administer IM Epinephrine. Remove stinger by scraping. Start IV fluids.
+Anaphylactic Shock (Food),"Throat swelling, Wheezing, Hypotension",Epinephrine,Administer Epinephrine 0.3mg IM immediately. Start IV fluids. Give Antihistamines and Corticosteroids.
+Anaphylactic Shock (Latex),"Urticaria, Bronchospasm, Hypotension",Epinephrine,Remove all latex products. Administer Epinephrine 0.3mg IM. Provide supportive care.
+Anaphylactic Shock (Contrast Media),"Hypotension, Tachycardia, Flushing",Epinephrine,Stop contrast immediately. Administer Epinephrine IM. Start aggressive IV fluid resuscitation.
+Malignant Hypertension,BP > 180/120 with Papilledema/Encephalopathy,"Nitroprusside, Labetalol",Admit to ICU. Reduce MAP by no more than 25% in first hour using titratable IV antihypertensives.
+Acute Heart Failure Exacerbation,"Severe dyspnea, Crackles, JVD","Furosemide, Nitroglycerin",Place upright. Administer IV Diuretics. Consider BiPAP for respiratory support. Give Vasodilators if BP allows.
+Cardiogenic Shock,"Hypotension, Cool extremities, Oliguria",Inotropes (Dobutamine),Obtain stat Echocardiogram. Start Inotropes. Avoid aggressive fluid boluses. Consider mechanical circulatory support.
+Hypovolemic Shock,"Hypotension, Tachycardia, Dry mucous membranes","IV Fluids, Blood",Establish 2 large-bore IVs. Administer rapid IV fluid boluses (Lactated Ringer's). Transfuse blood if hemorrhagic.
+Distributive Shock,"Hypotension, Warm extremities (early), Tachycardia",Vasopressors (Norepinephrine),"Administer IV fluid boluses. Start Vasopressors if unresponsive to fluids. Treat underlying cause (e.g., sepsis, anaphylaxis)."
+Obstructive Shock,"Hypotension, JVD, Muffled heart sounds/Absent breath sounds",None,"Identify and treat cause immediately (e.g., Needle decompression for tension PTX, Pericardiocentesis for tamponade)."
+Neurogenic Shock,"Hypotension, Bradycardia, Warm/dry skin","Vasopressors, Atropine",Maintain spinal immobilization. Administer IV fluids cautiously. Start Vasopressors. Treat bradycardia with Atropine.
+Vasovagal Syncope,"Transient LOC, Bradycardia, Hypotension",None,Place patient supine with legs elevated. Monitor vitals. Usually self-resolving. Provide reassurance.
+Orthostatic Hypotension,"Drop in BP upon standing, Dizziness",IV Fluids,Instruct patient to change positions slowly. Administer IV fluids if dehydrated. Review medications.
+Arrhythmia (Atrial Fibrillation with RVR),"Irregular HR > 110, Palpitations","Diltiazem, Amiodarone",Control rate with IV Diltiazem or Metoprolol. Consider cardioversion if hemodynamically unstable.
+Arrhythmia (Ventricular Tachycardia),"Wide complex tachycardia, HR > 150","Amiodarone, Lidocaine","If stable, give IV Amiodarone. If unstable with a pulse, perform synchronized cardioversion. If pulseless, start CPR and defibrillate."
+Arrhythmia (Ventricular Fibrillation),"Chaotic EKG, Pulseless","Epinephrine, Amiodarone",Initiate high-quality CPR immediately. Defibrillate as soon as possible. Administer Epinephrine every 3-5 mins.
+Arrhythmia (Asystole),"Flatline EKG, Pulseless",Epinephrine,Initiate high-quality CPR. Administer Epinephrine every 3-5 mins. Identify and treat reversible causes (Hs and Ts). Do NOT defibrillate.
+Arrhythmia (PEA),Organized EKG rhythm but pulseless,Epinephrine,Initiate high-quality CPR. Administer Epinephrine every 3-5 mins. Aggressively search for and treat reversible causes (Hs and Ts).
+Bradycardic Reaction,"HR < 50, Symptomatic (dizziness, hypotension)","Atropine, Pacing","Administer IV Atropine. If ineffective, prepare for transcutaneous pacing or start Dopamine/Epinephrine infusion."
+Heart Block (3rd Degree),"Dissociated P waves and QRS complexes, Bradycardia",Pacemaker,Apply transcutaneous pacing pads. Administer Atropine (may be ineffective). Consult Cardiology for transvenous pacemaker.
+Asthma Exacerbation (Severe),"Silent chest, Cyanosis, Altered LOC","Epinephrine, Magnesium",Prepare for immediate intubation. Administer IM Epinephrine. Give IV Magnesium Sulfate. Continuous nebulizers.
+COPD Exacerbation,"Increased dyspnea, Sputum purulence","Corticosteroids, Antibiotics",Administer bronchodilators. Give systemic Corticosteroids. Start empiric antibiotics. Consider BiPAP for hypercapnia.
+Pulmonary Edema (Flash),"Severe dyspnea, Pink frothy sputum","Nitroglycerin, Furosemide",Administer high-dose IV Nitroglycerin. Apply BiPAP. Administer IV Diuretics. Place patient upright.
+Croup (Severe),"Stridor at rest, Retractions","Racemic Epinephrine, Dexamethasone",Administer nebulized Racemic Epinephrine. Give IM/PO Dexamethasone. Keep child calm. Monitor airway closely.
+Epiglottitis,"Drooling, Dysphagia, Tripod position",Antibiotics,Do NOT examine throat. Keep patient calm. Prepare for emergent intubation in the OR. Start IV antibiotics.

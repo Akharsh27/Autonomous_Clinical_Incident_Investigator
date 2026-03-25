@@ -1,0 +1,99 @@
+c
+P001,09:30,Patient reports slight fatigue
+P001,09:45,Routine blood sample collected
+P001,10:00,Patient stable
+P001,10:15,Administered Drug X (Initial dose)
+P001,10:20,Patient reports mild discomfort at injection site
+P001,10:30,Patient reports shortness of breath
+P001,10:35,Oxygen mask applied - 2L/min
+P001,10:45,Physician consulted regarding respiratory response
+P001,11:00,Administered antihistamine for suspected reaction
+P001,11:15,Breath sounds improving
+P001,11:30,Patient resting quietly
+P001,11:45,Oxygen saturation returning to baseline
+P001,12:00,Oxygen mask removed
+P001,12:15,Patient reports feeling thirsty
+P001,12:30,Oral fluids encouraged
+P001,12:45,Patient ambulatory with assistance
+P001,13:00,Vital signs stable
+P001,13:15,Patient discharged to home care
+P002,08:00,Patient arrived for post-op checkup
+P002,08:15,Surgical site inspected - healing well
+P002,08:30,Patient reports pain level 3/10
+P002,08:45,Administered mild analgesic
+P002,09:00,Patient resting in recliner
+P002,09:15,Blood pressure check - 110/70
+P002,09:30,Patient stable
+P002,09:45,Physical therapy session started
+P002,10:00,Patient reports dizziness during exercise
+P002,10:10,Exercise paused; patient seated
+P002,10:20,Administered electrolyte solution
+P002,10:35,Dizziness resolved
+P002,10:50,Resumed light walking
+P002,11:05,Physical therapy session completed
+P002,11:20,Patient returned to room
+P002,11:35,Patient reports improved mobility
+P002,11:50,Midday meal served
+P002,12:05,Patient finished 50% of meal
+P002,12:20,Stable and resting
+P002,12:35,Follow-up appointment scheduled
+P003,14:00,Emergency admission - Chest pain
+P003,14:10,ECG lead placement completed
+P003,14:15,Administered Aspirin (325mg)
+P003,14:25,Patient reports chest tightness
+P003,14:30,Administered Nitroglycerin sublingual
+P003,14:40,Pain reduced to 2/10
+P003,14:55,Cardiac enzymes blood test ordered
+P003,15:10,Patient stable but anxious
+P003,15:25,Administered mild sedative
+P003,15:40,Patient sleeping
+P003,15:55,Lab results: Troponin slightly elevated
+P003,16:10,Cardiologist bedside consultation
+P003,16:25,Scheduled for cardiac catheterization
+P003,16:40,Pre-op prep initiated
+P003,16:55,Patient awake and alert
+P003,17:10,Consent forms signed
+P003,17:25,Vitals stable for procedure
+P003,17:40,Transported to Cath Lab
+P003,17:55,Procedure in progress
+P003,18:10,Procedure completed successfully
+P004,07:00,Patient admitted for glycemic control
+P004,07:15,Blood glucose check: 240 mg/dL
+P004,07:30,Administered fast-acting insulin
+P004,07:45,Breakfast served (Low carb)
+P004,08:00,Patient reports slight nausea
+P004,08:15,Patient stable
+P004,08:30,Blood glucose check: 180 mg/dL
+P004,08:45,Patient ambulatory in hallway
+P004,09:00,Patient reports headache
+P004,09:15,Encouraged water intake
+P004,09:30,Blood glucose check: 140 mg/dL
+P004,09:45,Patient stable
+P004,10:00,Administered Drug Y (Maintenance)
+P004,10:15,Patient complains of cold sweat
+P004,10:20,Rapid glucose check: 65 mg/dL
+P004,10:25,Administered 15g glucose gel
+P004,10:40,Glucose rising: 90 mg/dL
+P004,10:55,Symptoms of hypoglycemia resolved
+P004,11:10,Patient resting comfortably
+P004,11:25,Final discharge summary being prepared
+P005,20:00,Overnight sleep study started
+P005,20:30,Sensors calibrated and active
+P005,21:00,Patient asleep
+P005,21:30,Detected mild snoring
+P005,22:00,Patient stable
+P005,22:30,Apnea event detected (15 seconds)
+P005,22:35,Oxygen levels dipped to 88%
+P005,22:45,Patient shifted position
+P005,23:15,Oxygen levels stabilized at 96%
+P005,23:45,REM cycle detected
+P006,00:15,Patient stable
+P006,00:45,Brief awakening reported
+P006,01:15,Patient returned to sleep
+P006,02:00,Deep sleep cycle initiated
+P006,03:00,Heart rate slightly elevated during dream state
+P006,04:00,Patient stable
+P006,05:00,Early morning awakening
+P006,05:30,Patient sitting up in bed
+P006,06:00,Sensors removed
+P006,06:30,Study completed - Patient discharged

@@ -1,0 +1,101 @@
+patient_id,drug,time
+P001,Saline Flush (5ml),08:00
+P001,Cefazolin (Antibiotic),08:15
+P001,Morphine (2mg),08:45
+P001,Ondansetron (Anti-nausea),09:10
+P001,Normal Saline (IV Drip),09:30
+P001,Drug A (Maintenance),10:00
+P001,Drug X (Trial Dose),10:15
+P001,Acetaminophen (500mg),11:00
+P001,Insulin (2 Units),12:00
+P001,Multivitamin (Oral),12:30
+P001,Potassium Chloride,13:00
+P001,Drug X (Second Dose),14:15
+P001,Heparin (Subcutaneous),15:00
+P001,Saline Flush (5ml),16:00
+P001,Morphine (1mg),17:00
+P001,Lactated Ringers (IV),18:00
+P001,Drug A (Maintenance),19:00
+P001,Melatonin (3mg),21:00
+P001,Cefazolin (Antibiotic),22:00
+P001,Saline Flush (5ml),23:00
+P002,Lisinopril (10mg),08:00
+P002,Metformin (500mg),08:10
+P002,Aspirin (81mg),08:15
+P002,Vitamin D3,08:30
+P002,Atorvastatin (20mg),09:00
+P002,Drug A (Maintenance),09:30
+P002,Normal Saline (IV),10:00
+P002,Hydrochlorothiazide,11:00
+P002,Metformin (500mg),12:00
+P002,Iron Supplement,13:00
+P002,Vitamin B12,14:00
+P002,Calcium Carbonate,15:00
+P002,Drug A (Maintenance),16:00
+P002,Magnesium Oxide,17:00
+P002,Metformin (500mg),18:00
+P002,Lisinopril (10mg),20:00
+P002,Stool Softener,21:00
+P002,Omega-3 Fish Oil,21:30
+P002,Saline Flush,22:00
+P002,Heparin,23:00
+P003,Epinephrine (Push),14:15
+P003,Amiodarone (Bolus),14:20
+P003,Dopamine (Drip),14:30
+P003,Nitroglycerin (IV),14:45
+P003,Furosemide (Lasix),15:00
+P003,Heparin (IV Infusion),15:30
+P003,Potassium Chloride,16:00
+P003,Sodium Bicarbonate,16:15
+P003,Dextrose 50% (D50),16:30
+P003,Magnesium Sulfate,17:00
+P003,Drug X (Trial Dose),17:15
+P003,Midazolam (Sedative),17:45
+P003,Fentanyl (Pain),18:00
+P003,Propofol (Drip),18:15
+P003,Vecuronium,18:30
+P003,Normal Saline (IV),19:00
+P003,Ceftriaxone (Antibiotic),20:00
+P003,Pantoprazole (IV),21:00
+P003,Vancomycin (Antibiotic),22:00
+P003,Insulin (Sliding Scale),23:00
+P004,Humalog Insulin,07:30
+P004,Metformin (1000mg),08:00
+P004,Glucagon (Emergency),10:25
+P004,D50 (IV Push),10:30
+P004,Normal Saline,11:00
+P004,Drug Y (Maintenance),11:30
+P004,Potassium Chloride,12:00
+P004,Ibuprofen (400mg),13:00
+P004,Multivitamin,14:00
+P004,Drug A,15:00
+P004,Humalog Insulin,17:30
+P004,Metformin (1000mg),18:00
+P004,Atorvastatin,19:00
+P004,Drug Y (Maintenance),20:00
+P004,Lantus (Long-acting),21:00
+P004,Saline Flush,21:30
+P004,Gabapentin,22:00
+P004,Melatonin,22:30
+P004,Aspirin,23:00
+P004,Vitamin C,23:30
+P005,Ambien (5mg),21:00
+P005,Clonazepam (0.5mg),21:30
+P005,Oxygen (via Nasal),22:35
+P005,Albuterol (Inhaler),23:00
+P005,Saline Nasal Spray,23:15
+P005,Drug A (Maintenance),00:00
+P005,Drug X (Trial Dose),01:00
+P005,Acetaminophen,02:00
+P005,Oxygen (Adjusted Flow),03:00
+P005,Normal Saline,04:00
+P005,Albuterol (Inhaler),05:00
+P005,Drug A (Maintenance),06:00
+P005,Vitamin D,07:00
+P005,Omega-3,07:15
+P005,Metoprolol,07:30
+P005,Lisinopril,07:45
+P005,Furosemide,08:00
+P005,Potassium,08:15
+P005,Iron Supplement,08:30
+P005,Zinc Gluconate,09:00

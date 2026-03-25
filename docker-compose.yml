@@ -1,0 +1,14 @@
+
+version: '3.8'
+
+services:
+  streamlit:
+    build: .
+    container_name: clinical-investigator-app
+    restart: unless-stopped
+    ports:
+      - "8501:8501"
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+    working_dir: /app
+    command: streamlit run Utils/app.py --server.headless=true --server.address=0.0.0.0 --server.port=8501
